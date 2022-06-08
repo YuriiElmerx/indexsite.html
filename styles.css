@@ -1,0 +1,33 @@
+* {
+
+}
+.container {
+  display: flex;
+}
+
+section.pricing {
+  display: flex;
+}
+.block__border {
+  border-style: solid;
+  box-sizing: border-box
+}
+
+.btn {
+  background-color: yellow;
+}
+
+#tenor {
+background-color: grey;
+margin: 0; 
+}
+
+#bass{
+background-color: grey;
+margin: 0; 
+
+}
+#valve{
+background-color: grey;
+margin: 0;
+}
