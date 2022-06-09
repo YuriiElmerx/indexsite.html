@@ -1,8 +1,26 @@
-* {
-
+*{
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: aqua;
 }
 .container {
+  text-align: center;
+}
+#header-img {
+  text-align: left;
+}
+#nav-bar {
   display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+
+#header-img {
+  height: 125px;
+  width: 225px;
 }
 
 section.pricing {
