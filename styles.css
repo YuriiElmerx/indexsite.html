@@ -3,30 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.header-nav {
   text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
+
+
 .header__nav-logo {
     width: 100%;
     height: 100%;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-    flex: 1;
+    max-width: 25%;
+    
+    margin-left: 40px;
+
 }
 .navigation {
   display: flex;
-  flex-direction: column;
-  margin-left: 75%;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: right;
+  min-height: 70px;
+  padding: 20px;
+  height: 100%;
 }
 
 .nav-link {
   padding: 50px;
-  
+  text-decoration: none;
 }
 
 #header__info {
@@ -36,6 +40,8 @@
 #header-img {
   height: 125px;
   width: 225px;
+  width: 50%;
+  margin-right: auto;
 }
 #about-us {
   text-align: center;
