@@ -106,24 +106,38 @@
   border-style: solid;
   box-sizing: border-box;
   max-width: 20rem;
-  margin: 15px;
+  margin-right: 1.5rem;
+}
+
+.pricing__box {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.pricing__title {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .btn {
   background-color: yellow;
+  font-size: 1.5rem;
 }
 
 #tenor {
-background-color: grey;
+background-color: rgba(128, 128, 128, 0.479);
+font-size: 1.5rem;
 margin: 0; 
 }
 
-#bass{
-background-color: grey;
+#bass {
+background-color: rgba(128, 128, 128, 0.479);
+font-size: 1.5rem;
 margin: 0; 
 
 }
-#valve{
-background-color: grey;
+#valve {
+background-color: rgba(128, 128, 128, 0.479);
+font-size: 1.5rem;
 margin: 0;
 }
