@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (mix-width: 500px) {
+  .nav-bar {
+    display: inline-block;
+  }
+}
   
 .header-nav {
   text-align: center;
@@ -55,7 +61,10 @@
   margin-right: auto;
 }
 
+
 .about-us__container{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -71,14 +80,15 @@
   display: flex;
     align-items: center;
     justify-content: center;
-    height: 155px;
-    width: 125px;
+    height: 175px;
+    width: 145px;
     color: darkorange;
 }
 .about__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 800px;
   text-align: left;
   font-size: 1.3rem;
 }
